@@ -1,0 +1,38 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+h1 {
+    text-align: center;
+}
+.table-1 {
+    margin-top: 70px;
+  }
+  
+  table,
+  td,
+  th {
+    border: none;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(88, 0, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(88, 0, 255, 1) 0%,
+      rgba(98, 0, 255, 1) 20%,
+      rgba(141, 38, 240, 1) 40%,
+      rgba(140, 8, 251, 1) 60%,
+      rgba(155, 14, 245, 1) 80%,
+      rgba(171, 22, 241, 1) 100%
+    );
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  tr:hover {
+    background: rgb(123, 61, 238);
+  }
